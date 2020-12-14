@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     font-family: 'Fira Code', monospace;
+    scroll-behavior: smooth;
 }
 
 .homepage {
@@ -32,7 +33,10 @@ nav {
     list-style-type: none;
     font-weight: 300;
 }
-
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
 .nav-links li {
     padding-left: 5rem;
     font-size: 1.2rem;
@@ -88,7 +92,7 @@ nav {
 /* Style to about page */
 
 .about {
-    background: rgb(37, 36, 36);
+    background: rgb(31, 30, 30);
     min-height: 60vh;
     padding: 5rem 10rem;
 }
@@ -99,7 +103,7 @@ nav {
     width: 350px;
     height: 350px;
     right: 8%;
-    top:1150px;
+    top:1850px;
 }
 
 .about-title {
@@ -115,7 +119,7 @@ nav {
 
 
 .contacts {
-    background: rgb(31, 30, 30);
+    background: rgb(37, 36, 36);
     min-height: 30vh;
     padding: 5rem 10rem;
 }
@@ -141,5 +145,23 @@ nav {
     font-size: 20px;
 }
 .github {
+    font-size: 20px;
+}
+
+/* Style to projects page */
+
+.projects {
+    background: rgb(37, 36, 36);
+    min-height: 60vh;
+    padding: 5rem 10rem;
+}
+.projects-title {
+    font-size: 60px;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.projectname {
+    color: white;
     font-size: 20px;
 }
